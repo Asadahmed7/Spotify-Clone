@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background-color: rgb(33, 32, 32);
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  font-family: "Nunito", sans-serif;
+  color: aliceblue;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  height: 65px;
+  background-color: black;
+  align-items: center;
+}
+nav ul li{
+  padding: 0 10px;
+}
+.brand img{
+  width: 45px;
+  padding: 0 0px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container{
+  position: relative;
+  min-height: 65vh;
+  background-color: black;
+  background-image: url('dope.jpg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 19px;
+}
+.bottom{
+  height: 100px;
+  background-color: black;
+  position: sticky;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons{
+  margin-top: 14px;
+  cursor: pointer;
+  color: rgb(92, 200, 92);
+}
+.icons i {
+  margin: 0 6px; 
+}
+#myProgressBar{
+  width: 80vw;
+  cursor: pointer;
+}
+.songitems{
+  height: 50px;
+  display: flex;
+  background-color: rgb(249, 7, 152);
+ color: black;
+ margin: 12px 0;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 25px;
+}
+.songitems img{
+  width: 45px;
+  margin: 0 25px;
+  border-radius:2rem;
+
+}
+.timespan{
+  margin: 0 23px;
+}
+.timespan i{
+  cursor: pointer;
+}
+.songinfo{
+  position: absolute;
+  left: 2.5vw;
+ bottom: 13px;
+}
+.songinfo img{
+  order: -1;
+  margin-right: 15px;
+  margin-top: 20px;
+  width: 70px;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  border-radius: 5rem;
+}
+.songlist{
+  padding: 30px;
+}
+.bottomtext{
+  position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  bottom: 11px;
+  left: 9.6vw;
+}

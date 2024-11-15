@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Trove | ContactUS</title>
+    <link rel="icon" type="image/x-icon" href="Logop.png">
+</head>
+<style>
+    .form{
+      display: flex;
+      align-items: horizoatally;   /* Align items vertically */
+      gap: 20px;             /* Space between form elements */
+      flex-wrap: wrap;       /* Allow wrapping if the screen is too narrow */
+    }
+    .fullname{
+        width: 100px; 
+        padding: 30px;       
+        font-size: 16px;
+        display: flex;
+    }
+    body{
+        background-color: bisque;
+        overflow-x: hidden;
+    }
+    .heading{
+        color: brown;
+        font-size: 30px;
+        text-align: center;
+        font-family: Merriweather;
+    }
+    #image{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+    #para{
+        color: #774E24;
+        text-align: center;
+        font-size: 20px;
+        font-family: ;
+    }
+    
+    .button{
+        width: 110px;
+        padding: 10px;
+        background-color: brown;
+        color: #FEFDFF;              
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        float: right;
+        margin-right: 140px;
+    }
+    hover{
+        transform: scale(1.1);
+    }
+    .rectangle{
+      width: 200%;
+      height: 400px; 
+      background-color: #82816D;
+      display: flex;
+      align-items: center; 
+      justify-content: space-between;
+      box-sizing: border-box; 
+      position: relative;
+      margin: 0px;
+      bottom: 0px;
+      top: 0px;
+    }
+    #heading2{
+        color: brown;
+        font-size: 20px;
+        text-align: left;
+        font-family: Helvetica;
+    }
+</style>
+
+<body>
+    <div>
+        <img src="Logop.png" alt="Taste Trove" id="image">
+    </div>
+    <div class="heading">
+        <h1>Contact Us</h1>
+    </div>
+    <div id="para">
+        <p>For any complaint or suggestion please leave us a message below.</p>
+    </div>
+    <form class="form">
+        <div>
+            <input type="text" placeholder="Full Name*"  id="fullname">
+        </div>
+        <div id="email">
+            <input type="email" placeholder="Email*">
+        </div>
+        <div>
+            <input type="tel" placeholder="Phone*">
+        </div>
+        <div id="message">
+            <input type="text" placeholder="Message">
+        </div>
+        <div>
+          <input type="submit" name="submit now" class="button">
+        </div>
+    </form>
+        <h3 id="heading2">Our Location</h3>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.337170223555!2d2.2922925156745493!3d48.85837307928796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f10606d6c27%3A0xb8b4b6d6b2f7809b!2sEiffel%20Tower!5e0!3m2!1sen!2s!4v1697210108655!5m2!1sen!2s" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <button onclick="window.open('https://www.google.com/maps?q=48.8584,2.2945', '_blank')">
+            Open in Google Maps
+        </button>
+</body>
+</html>
