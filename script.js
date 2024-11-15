@@ -8,6 +8,7 @@ let cover = document.getElementById('cover'); // Cover image element
 let myProgressBar = document.getElementById('myProgressBar');
 let bottomText = document.querySelector('.bottomtext');
 let nextButton = document.querySelector('.fa-step-forward');
+
 let previousButton = document.querySelector('.fa-step-backward');
 
 // Array of songs
